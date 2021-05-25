@@ -4,7 +4,7 @@
   "description": "SDGE - data-processor",
   "main": "index.js",
   "scripts": {
-    "start" : "node-red -v ./sdge-data-processing.json"
+    "start" : "node-red -v ./sdge-data-processing.json -s ./config/settings.js"
 	
   },
   "repository": {
