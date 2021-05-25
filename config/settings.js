@@ -184,10 +184,10 @@ module.exports = {
     // in the HTTP nodes.
     // See https://github.com/troygoode/node-cors#configuration-options for
     // details on its contents. The following is a basic permissive set of options:
-    //httpNodeCors: {
-    //    origin: "*",
-    //    methods: "GET,PUT,POST,DELETE"
-    //},
+    httpNodeCors: {
+        origin: "*",
+        methods: "GET,PUT,POST,DELETE"
+    },
 
     // If you need to set an http proxy please set an environment variable
     // called http_proxy (or HTTP_PROXY) outside of Node-RED in the operating system.
@@ -250,6 +250,7 @@ module.exports = {
     // can be accessed in a function block as:
     //    global.get("os")
     functionGlobalContext: {
+		kafkajs:require('kafkajs')
         // os:require('os'),
         // jfive:require("johnny-five"),
         // j5board:require("johnny-five").Board({repl:false})
