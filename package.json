@@ -1,0 +1,23 @@
+{
+  "name": "kafka-stream-bpmn-data-processor",
+  "version": "1.0.0",
+  "description": "SDGE - data-processor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerEfm/kafka-stream-bpmn-data-processor.git"
+  },
+  "author": "Matteo Masina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developerEfm/kafka-stream-bpmn-data-processor/issues"
+  },
+  "homepage": "https://github.com/developerEfm/kafka-stream-bpmn-data-processor#readme",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "node-red": "^1.3.5"
+  }
+}
